@@ -1,0 +1,92 @@
+/* GENERAL */
+:root
+{
+    --primary-color: #000;
+    /* --modelS: url("../assets/Desktop.img") */
+}
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* Utilities */
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* header */
+
+header
+{
+    position: fixed;
+    width: 100vw;
+    background: transparent;
+    padding: 0 16px;
+    top: 0;
+    left: 0;
+}
+
+header > div
+{
+    width: calc(100% /3);
+    margin: 0 -2px;
+    display: inline-block;
+}
+
+.Logo img
+{
+    width: 120px;
+    vertical-align: middle;
+}
+
+header ul li
+{
+    display: inline-block;
+} 
+
+header ul li a
+{
+    line-height: 32px;
+    display: block;
+    padding: 5px;
+}
+
+/* main */
+
+/* products */
+
+.Item
+{
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/Desktop-ModelY.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Item-container
+{
+    padding-top: 130px;
+}
+
